@@ -1,0 +1,11 @@
+23:03:33.841 [main] INFO  api.test.UserTests - ========Creating User=================
+23:03:36.376 [main] INFO  api.test.UserTests - ========User created=================
+23:03:36.392 [main] INFO  api.test.UserTests - ========Getting User=================
+23:03:38.020 [main] INFO  api.test.UserTests - ========User Got=================
+23:03:38.021 [main] INFO  api.test.UserTests - ========Updating User info=================
+23:03:38.022 [main] INFO  api.test.UserTests - ========User info Updated=================
+23:03:38.022 [main] INFO  api.test.UserTests - ========Validating user info=================
+23:03:39.160 [main] INFO  api.test.UserTests - ========User info validated=================
+23:03:40.233 [main] INFO  api.test.UserTests - ========User info successfully updated=================
+23:03:40.235 [main] INFO  api.test.UserTests - ========Deleting User=================
+23:03:41.387 [main] INFO  api.test.UserTests - ========User Deleted=================
