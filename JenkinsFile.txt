@@ -2,6 +2,9 @@
 	
 	{
 		agent any
+tools {
+MAVEN_HOME
+}
 		
 		stages {
 			stage ('Build') 
