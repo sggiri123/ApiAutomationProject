@@ -12,13 +12,6 @@
                                         bat "mvn clean"
 				}
 			}
-			stage ('Deploy') 
-			{
-				steps 
-				{
-					echo "Deploying is completed"
-				}
-			}
 			stage ('Test') 
 			{
 				steps 
