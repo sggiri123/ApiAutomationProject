@@ -1,0 +1,42 @@
+	pipeline
+	
+	{
+		agent any
+
+		stages {
+			stage ('Build') 
+			{
+				steps 
+				{
+					echo "Build creation is Completed"
+                                        bat "mvn clean"
+				}
+			}
+			stage ('Deploy') 
+			{
+				steps 
+				{
+					echo "Deploying is completed"
+                                        bat "mvn clean"
+				}
+			}
+			stage ('Test') 
+			{
+				steps 
+				{
+					echo "Testing started"
+                                        bat "mvn test"
+                                        echo "Testing is completed"
+				}
+			}
+			stage ('Release') 
+			{
+				steps 
+				{
+					echo "Release completed"
+				}
+			}
+
+		}
+
+		}	
