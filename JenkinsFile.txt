@@ -17,7 +17,6 @@
 				steps 
 				{
 					echo "Deploying is completed"
-                                        bat "mvn clean"
 				}
 			}
 			stage ('Test') 
@@ -25,8 +24,7 @@
 				steps 
 				{
 					echo "Testing started"
-                                        bat "mvn test"
-                                        echo "Testing is completed"
+                                        bat "mvn test"             
 				}
 			}
 			stage ('Release') 
