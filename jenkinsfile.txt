@@ -9,7 +9,7 @@
 				steps 
 				{
 					echo "Build creation is completed..."
-                    bat "mvn clean install -f pom.xml"
+                    bat "mvn clean install"
 				}
 			}
 			
