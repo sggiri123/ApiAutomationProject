@@ -11,7 +11,7 @@
 				steps 
 				{
 					echo "Build creation is completed..."
-                    bat "mvn clean"
+                    sh "mvn clean"
 				}
 			}
 			
@@ -20,7 +20,7 @@
 				steps 
 				{
 					echo "Testing the project..."
-                    bat "mvn test"             
+                    sh "mvn test"             
 				}
 			}
 			
@@ -29,7 +29,7 @@
 				steps 
 				{
 					echo "Compiling a project..."
-                    bat "mvn compile"             
+                    sh "mvn compile"             
 				}
 			}
 			
