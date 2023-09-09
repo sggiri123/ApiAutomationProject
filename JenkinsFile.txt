@@ -8,7 +8,7 @@
 			{
 				steps 
 				{
-					echo "Build creation is Completed"
+					echo "Build creation is completed..."
                                         bat "mvn clean"
 				}
 			}
@@ -16,15 +16,23 @@
 			{
 				steps 
 				{
-					echo "Testing started"
+					echo "Testing the project..."
                                         bat "mvn test"             
 				}
 			}
-			stage ('Release') 
+                        stage ('Compile') 
 			{
 				steps 
 				{
-					echo "Release completed"
+					echo "Compiling a project..."
+                                        bat "mvn compile"             
+				}
+			}
+			stage ('Deploy') 
+			{
+				steps 
+				{
+					echo "Deployed to production..."
 				}
 			}
 
